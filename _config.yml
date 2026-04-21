@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andre Goncalves"
 title_separator          : "-"
 name                     : &name "Andre Goncalves"
-description              : &description "personal description"
+description              : &description "Machine learning research in protein design and clinical foundation models"
 url                      : https://andreric.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andreric/andreric.github.io"
@@ -80,13 +80,13 @@ analytics:
 author:
   name             : "Andre Goncalves"
   avatar           : "profile.jpg"
-  bio              : "Machine Learning Researcher"
+  bio              : "Machine Learning Research Scientist"
   location         : "Livermore, CA"
   employer         : "Lawrence Livermore National Lab"
   googlescholar    : "https://scholar.google.com/citations?user=pn7hL2cAAAAJ&hl=en"
   email            :
   uri              :
-  bitbucket        : "andreric"
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :

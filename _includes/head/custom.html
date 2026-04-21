@@ -24,6 +24,125 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<style>
+  .home-hero {
+    margin: 0 0 2.5rem;
+    padding: 1.75rem 0 0.5rem;
+  }
+
+  .home-eyebrow {
+    margin-bottom: 0.75rem;
+    color: #2563eb;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .home-hero h1 {
+    margin-bottom: 1rem;
+    line-height: 1.15;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+  }
+
+  .home-lead {
+    max-width: 52rem;
+    color: #374151;
+    font-size: 1.1rem;
+    line-height: 1.75;
+  }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin: 0 0 2rem;
+  }
+
+  .home-panel,
+  .home-resource-card,
+  .home-link-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  }
+
+  .home-panel {
+    padding: 1.35rem 1.4rem;
+  }
+
+  .home-panel h2,
+  .home-section h2 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
+  .home-panel p:last-child,
+  .home-section p:last-child {
+    margin-bottom: 0;
+  }
+
+  .home-links-panel {
+    background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+  }
+
+  .home-link-list,
+  .home-resource-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .home-link-card,
+  .home-resource-card {
+    display: block;
+    padding: 1rem 1.1rem;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .home-link-card:hover,
+  .home-resource-card:hover,
+  .home-link-card:focus,
+  .home-resource-card:focus {
+    border-color: #93c5fd;
+    box-shadow: 0 16px 32px rgba(37, 99, 235, 0.12);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .home-link-card strong,
+  .home-resource-card strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #111827;
+  }
+
+  .home-link-card span,
+  .home-resource-card span {
+    display: block;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+
+  .home-section {
+    margin: 0 0 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  @media (max-width: 768px) {
+    .home-hero {
+      padding-top: 0.5rem;
+    }
+
+    .home-lead {
+      font-size: 1rem;
+    }
+  }
+</style>
+
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
